@@ -1,4 +1,4 @@
-FROM centos:7.4.1708
+FROM centos:7.4.1708@sha256:2a61f8abd6250751c4b1dd3384a2bdd8f87e0e60d11c064b8a90e2e552fee2d7
 
 RUN yum update -y \
  && yum install -y wget \
